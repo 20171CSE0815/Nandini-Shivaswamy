@@ -1,0 +1,16 @@
+
+	body{
+	background-color:linen;
+	background-image: url("file:///home/Sem6B12/Downloads/f1_files/images.jpeg");
+	background-repeat:no-repeat;
+	
+	}
+
+	p.school{color: blue;}
+	h1, h3{ color: maroon;
+	    margin-left:80px;}
+	
+	p{ color: red;
+		background-color:yellow;}
+
+
