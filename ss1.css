@@ -1,0 +1,52 @@
+<style>
+
+p:: first-letter{
+color:#ff0000;
+font-variant:small-caps;
+}
+p:: first-line{
+color:#0000ff;
+font-variant:small-caps;
+}
+
+h1::before{
+content:url(/home/Sem6B12/Downloads/f1_files/index.jpeg);
+}
+
+
+h1::after{
+content:url(/home/Sem6B12/Downloads/f1_files/images.jpeg);
+}
+
+
+
+::selection{
+color:red;
+background:yellow;
+}
+
+
+img{
+opacity: 0.5;
+filter: alpha(opacity=50);
+}
+
+
+div{
+background-color:#4CAF50;
+padding:10px;
+}
+
+div:first{
+opacity: 0.1;
+filter: alpha(opacity=10);
+}
+div:second{
+opacity: 0.9;
+filter: alpha(opacity=90);
+}
+div:third{
+opacity: 0.3;
+filter: alpha(opacity=30);
+}
+</style>
